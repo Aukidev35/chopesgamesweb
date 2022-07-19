@@ -1,0 +1,7 @@
+
+Options All -Indexes
+
+	RewriteEngine On
+
+	RewriteRule ^(.*)$ public/$1 [L]
+

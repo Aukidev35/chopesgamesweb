@@ -1,0 +1,63 @@
+CRITICAL - 2022-03-29 01:59:48 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 02:00:24 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 02:00:26 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 02:00:32 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 15:23:13 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 15:31:49 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 16:14:16 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 16:14:45 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}
+CRITICAL - 2022-03-29 17:16:39 --> Too few arguments to function App\Controllers\AdministrateurSuper::modifierAdmin(), 0 passed in C:\wamp64\www\chopesgames\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\chopesgames\system\CodeIgniter.php(824): App\Controllers\AdministrateurSuper->modifierAdmin()
+#1 C:\wamp64\www\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministrateurSuper))
+#2 C:\wamp64\www\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\chopesgames\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\c...')
+#5 {main}

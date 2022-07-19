@@ -1,0 +1,27 @@
+INFO - 2022-05-11 11:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:31:09 --> CSRF cookie sent.
+INFO - 2022-05-11 11:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-11 11:34:47 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'apple-touch-ico...')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-11 11:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-11 11:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,176 @@
+CRITICAL - 2022-01-13 03:44:27 --> syntax error, unexpected '}', expecting end of file
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(50): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits()
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 03:44:30 --> syntax error, unexpected '}', expecting end of file
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 03:44:33 --> syntax error, unexpected '}', expecting end of file
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 05:48:16 --> syntax error, unexpected '}'
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Visiteur/lister...')
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Visiteur/lister...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#6 {main}
+CRITICAL - 2022-01-13 05:55:54 --> Undefined variable: marque
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Views\templates\header.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\COURS\\DEVELO...', 73, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(214): include('D:\\COURS\\DEVELO...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#10 {main}
+CRITICAL - 2022-01-13 05:58:51 --> Undefined variable: categorie
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Views\templates\header.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\COURS\\DEVELO...', 73, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(214): include('D:\\COURS\\DEVELO...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#10 {main}
+CRITICAL - 2022-01-13 05:58:52 --> Undefined variable: categorie
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Views\templates\header.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\COURS\\DEVELO...', 73, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(214): include('D:\\COURS\\DEVELO...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#10 {main}
+CRITICAL - 2022-01-13 06:00:26 --> Undefined variable: categorieS
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Views\templates\header.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\COURS\\DEVELO...', 73, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(214): include('D:\\COURS\\DEVELO...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#10 {main}
+CRITICAL - 2022-01-13 06:06:06 --> Trying to access array offset on value of type null
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\COURS\\DEVELO...', 95, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits_par_categorie('Aventure')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#6 {main}
+CRITICAL - 2022-01-13 06:07:06 --> Undefined index: LIBELLE
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Views\templates\header.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\COURS\\DEVELO...', 73, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(214): include('D:\\COURS\\DEVELO...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#10 {main}
+CRITICAL - 2022-01-13 06:10:07 --> syntax error, unexpected end of file
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 06:20:27 --> Trying to access array offset on value of type null
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\COURS\\DEVELO...', 95, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits_par_categorie('Aventure')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#6 {main}
+CRITICAL - 2022-01-13 06:30:59 --> Undefined index: nocategorie
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Views\templates\header.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\COURS\\DEVELO...', 73, Array)
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(214): include('D:\\COURS\\DEVELO...')
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(26): view('templates/heade...', Array)
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#10 {main}
+CRITICAL - 2022-01-13 06:32:20 --> syntax error, unexpected '<'
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(100): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits_par_categorie('16http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '4http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '11http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '15http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '3http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '5http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '7http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '22http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '8http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '19http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '13http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '2')
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 06:42:10 --> syntax error, unexpected '<'
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(100): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits_par_categorie('16http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '4http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '11http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '15http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '3http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '5http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '7http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '22http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '8http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '19http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '13http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '<a href=')
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 06:42:12 --> syntax error, unexpected '<'
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(100): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits_par_categorie('16http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '4http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '11http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '15http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '3http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '5http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '7http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '22http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '8http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '19http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '13http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '2')
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}
+CRITICAL - 2022-01-13 06:42:13 --> syntax error, unexpected '<'
+#0 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\COURS\DEVELOPPEMENT WEB\chopesgames\app\Controllers\Visiteur.php(100): view('templates/heade...', Array)
+#3 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(824): App\Controllers\Visiteur->lister_les_produits_par_categorie('16http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '4http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '11http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '15http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '3http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '5http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '7http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '22http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '8http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '19http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '13http:', 'localhost:8080', 'index.php', 'Visiteur', 'lister_les_prod...', '2')
+#4 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#5 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\COURS\DEVELOPPEMENT WEB\chopesgames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\COURS\DEVELOPPEMENT WEB\chopesgames\system\Commands\Server\rewrite.php(43): require_once('D:\\COURS\\DEVELO...')
+#8 {main}

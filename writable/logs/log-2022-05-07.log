@@ -1,0 +1,158 @@
+INFO - 2022-05-07 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 15:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 15:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 15:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 15:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 15:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 15:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 16:21:36 --> Undefined variable: marques
+#0 C:\wamp64\www\chopesgamesFinal3\app\Views\visiteur\listerProduits.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 58, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\View\View.php(214): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\chopesgamesFinal3\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\chopesgamesFinal3\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/lister...', Array, true)
+#4 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(96): view('visiteur/lister...')
+#5 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('7')
+#6 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-05-07 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 16:21:36 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'img-pro-01.jpg')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 16:21:36 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'img-pro-02.jpg')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 16:21:36 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'img-pro-03.jpg')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 16:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 16:21:38 --> Undefined variable: totalTime
+#0 C:\wamp64\www\chopesgamesFinal3\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 40, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\Debug\Toolbar.php(497): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\chopesgamesFinal3\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\wamp64\www\chopesgamesFinal3\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\wamp64\www\chopesgamesFinal3\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-05-07 16:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:37:49 --> CSRF cookie sent.
+INFO - 2022-05-07 16:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 16:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 17:09:01 --> Undefined variable: marques
+#0 C:\wamp64\www\chopesgamesFinal3\app\Views\visiteur\listerProduits.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 58, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\View\View.php(214): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\chopesgamesFinal3\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\chopesgamesFinal3\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/lister...', Array, true)
+#4 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(96): view('visiteur/lister...')
+#5 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('5')
+#6 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-05-07 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 17:09:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'img-pro-01.jpg')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 17:09:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'img-pro-02.jpg')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 17:09:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'img-pro-03.jpg')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-05-07 17:09:01 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\chopesgamesFinal3\app\Controllers\Visiteur.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\c...', 90, Array)
+#1 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(824): App\Controllers\Visiteur->listerProduitsCategorie('images', 'apple-touch-ico...')
+#2 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\wamp64\www\chopesgamesFinal3\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\chopesgamesFinal3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-05-07 17:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-05-07 17:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
